@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    /* background: #0d0d0d; */
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+/* ===========Universal Classess======== */
+.justified-start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.justified-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    background: #2f3e46;
+}
+
+/* ========Styling Classes======= */
+.singleItem{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 1px solid whitesmoke;
+}
+.singleItem > img{
+    width: 100%;
+    max-width: 120px;
+    border-right: 1px solid whitesmoke;
+}
+.singleItem > .itemName{
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-right: 1px solid whitesmoke;
+}
+.singleItem > .itemPrice{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.singleItem > .itemPrice:hover{
+    color: orange;
+    cursor: pointer;
+}
