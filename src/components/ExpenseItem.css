@@ -7,7 +7,7 @@
 /* ===========Universal Classess======== */
 .justified-start{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 .justified-center{
@@ -18,22 +18,26 @@
 .items{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,1fr);
-    background: #2f3e46;
+    grid-template-rows: 1fr;
+    background: #373737;
+    padding: 10px;
 }
 
 /* ========Styling Classes======= */
+.intro{
+    background: #373737;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px 0;
+}
 .singleItem{
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
-    border: 1px solid whitesmoke;
+    background: #424242;
+    border-radius: 15px;
 }
-.singleItem > .itemDate{
-    font-size: 1.2rem;
-    font-weight: 400;
-    border-right: 1px solid whitesmoke;
-}
-.singleItem > img{
+.singleItem > .justified-center > img{
     width: 100%;
     max-width: 120px;
     border-right: 1px solid whitesmoke;

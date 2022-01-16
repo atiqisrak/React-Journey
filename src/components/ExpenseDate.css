@@ -1,0 +1,37 @@
+/* ===========Universal Classess======== */
+.justified-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.justified-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ========Styling Classes======= */
+.itemDate{
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    /* width: 20vw; */
+    padding: 30px;
+    background: #373737;
+    display: flex;
+    flex-direction: column;
+}
+.itemDate > .expenseDateDay{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.itemDate > .expenseDateMonth{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.itemDate > .expenseDateYear{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
