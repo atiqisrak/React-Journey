@@ -1,9 +1,9 @@
-import foodImage from '../assets/img/cp.png';
+import foodImage from '../../assets/img/cp.png';
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
-import Card from './Card';
+import Card from '../UI/Card';
 
-function ExpenseItem(props){
+const ExpenseItem = (props) => {
     
     return (
       <div>
