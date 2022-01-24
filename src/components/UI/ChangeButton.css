@@ -1,0 +1,14 @@
+.chng{
+    background: orange;
+    color: whitesmoke;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    height: 50px;
+    padding: 15px;
+}
+.chng:hover{
+    color: orange;
+    background: #0d0d0d;
+    cursor: pointer;
+    font-weight: 500;
+}
