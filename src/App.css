@@ -36,10 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.lottie-container{
-  display: flex;
-}
-.lottie1, .lottie2{
-  width: 50%;
-}

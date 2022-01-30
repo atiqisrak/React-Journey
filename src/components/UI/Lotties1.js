@@ -17,11 +17,7 @@ const Lottief1 = (props) => {
     }, [])
     
     return (
-        <div className="lottie-container">
-            <div className="lf-container">
-                <div className="lf1" ref={container}></div>
-            </div>
-        </div>
+        <div className="lf1" ref={container}></div>
     );
 } 
 

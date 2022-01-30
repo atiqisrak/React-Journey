@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./components/UI/Card";
 import Expenses from "./components/Expenses/Expenses";
-import Lottief1 from "./components/UI/Lotties1";
-import Lottief2 from "./components/UI/Lotties2";
+import './App.css'
+import LottieController from './components/UI/LottieController'
 // import ExpenseItem from './components/ExpenseItem';
 
 const App = () => {
@@ -47,14 +47,7 @@ const App = () => {
   return (
     <Card>
       <div className="intro">
-        <div className="lottie-container">
-          <div className="lottie1">
-            <Lottief1 />
-          </div>
-          <div className="lottie2">
-            <Lottief2 />
-          </div>
-        </div>
+        <LottieController />
         <h2>Let's test your brain</h2>
       </div>
       <Expenses items={items} />

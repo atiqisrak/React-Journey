@@ -1,0 +1,8 @@
+.lottie-container{
+    display: flex;
+    justify-content: space-evenly;
+    background: #ffffff;
+    padding: 30px 0;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 15px #ffffff40;
+  }
