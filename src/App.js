@@ -2,7 +2,8 @@ import React from "react";
 import Card from "./components/UI/Card";
 import Expenses from "./components/Expenses/Expenses";
 import './App.css'
-import LottieController from './components/UI/LottieController'
+import LottieController from './components/UI/LottieController';
+import Lottief1 from "./components/UI/Lotties1";
 // import ExpenseItem from './components/ExpenseItem';
 
 const App = () => {
@@ -47,7 +48,8 @@ const App = () => {
   return (
     <Card>
       <div className="intro">
-        <LottieController />
+        {/* <LottieController /> */}
+        <Lottief1/>
         <h2>Let's test your brain</h2>
       </div>
       <Expenses items={items} />
