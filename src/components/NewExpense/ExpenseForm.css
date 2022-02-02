@@ -1,0 +1,36 @@
+.new-expense-controls{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+.new-expense-controls > .new-expense-control{
+    padding-bottom: 20px;
+}
+.new-expense-controls > .new-expense-control label{
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.new-expense-controls > .new-expense-control input{
+    color: #282c34;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #282c34;
+}
+.new-expense-controls > .new-expense-control input::placeholder{
+    color: #282c34;
+    padding-left: 15px;
+}
+.new-expense-actions{
+    display: flex;
+    justify-content: center;
+}
+.new-expense-actions button{
+    background: orange;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+}

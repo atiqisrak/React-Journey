@@ -4,7 +4,7 @@ import Expenses from "./components/Expenses/Expenses";
 import './App.css'
 import LottieController from './components/UI/LottieController';
 import Lottief1 from "./components/UI/Lotties1";
-// import ExpenseItem from './components/ExpenseItem';
+import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
   const items = [
@@ -48,10 +48,10 @@ const App = () => {
   return (
     <Card>
       <div className="intro">
-        {/* <LottieController /> */}
-        <Lottief1/>
+        <LottieController/>
         <h2>Let's test your brain</h2>
       </div>
+      <NewExpense/>
       <Expenses items={items} />
     </Card>
   );
