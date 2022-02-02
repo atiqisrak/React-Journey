@@ -3,12 +3,17 @@ import './ExpenseForm.css';
 
 class Expenseform extends Component {
     render() {
+
+        const titleChangeHandler = (event) => {
+            console.log(event);
+        };
+
         return (
             <form>
                 <div className='new-expense-controls'>
                     <div className='new-expense-control'>
                         <label>Title</label>
-                        <input type='text' placeholder='Garlic Naan'></input>
+                        <input type='text' placeholder='Garlic Naan' onChange={titleChangeHandler}></input>
                     </div>
                     <div className='new-expense-control'>
                         <label>Amount</label>

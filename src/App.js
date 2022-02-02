@@ -3,7 +3,6 @@ import Card from "./components/UI/Card";
 import Expenses from "./components/Expenses/Expenses";
 import './App.css'
 import LottieController from './components/UI/LottieController';
-import Lottief1 from "./components/UI/Lotties1";
 import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {

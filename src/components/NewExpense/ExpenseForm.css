@@ -21,7 +21,7 @@
     border: 1px solid #282c34;
 }
 .new-expense-controls > .new-expense-control input::placeholder{
-    color: #282c34;
+    color: #979797;
     padding-left: 15px;
 }
 .new-expense-actions{
@@ -33,4 +33,11 @@
     padding: 10px 25px;
     border: 1px solid white;
     border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.new-expense-actions button:hover{
+    color: #282c34;
+    background: white;
 }
