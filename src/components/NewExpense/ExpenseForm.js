@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ExpenseForm.css';
 
-const Expenseform = () => {
+const Expenseform = (props) => {
 
         const [enteredTitle, setEnteredTitle] = useState('');
         const [enteredAmount, setEnteredAmount] = useState('');
@@ -72,6 +72,7 @@ const Expenseform = () => {
             console.log(expenseData);
             
             // To clear the field after submission
+            props.onSaveExpenseData(expenseData);
             setEnteredTitle('');
             setEnteredAmount('');
             setEnteredDate('');
